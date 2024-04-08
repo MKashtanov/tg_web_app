@@ -15,7 +15,7 @@ from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_applicati
 
 load_dotenv()
 TOKEN = getenv("API_TOKEN")
-APP_BASE_URL = getenv("https://tasky-owzs.onrender.com/")
+APP_BASE_URL = getenv("APP_BASE_URL")
 
 
 async def on_startup(bot: Bot, base_url: str):
