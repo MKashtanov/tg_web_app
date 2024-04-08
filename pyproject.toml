@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-app-exam"
+version = "0.1.0"
+description = ""
+authors = ["m.kashtanov <m.kashtanov@mkdg.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.9.3"
+aiogram = "^3.4.1"
+poetry-dotenv-plugin = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
