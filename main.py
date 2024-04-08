@@ -45,7 +45,7 @@ def main():
     ).register(app, path="/webhook")
     setup_application(app, dispatcher, bot=bot)
 
-    run_app(app, host="127.0.0.1", port=8081)
+    run_app(app, host="0.0.0.0", port=8081)
 
 
 if __name__ == "__main__":
